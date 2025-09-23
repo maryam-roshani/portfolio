@@ -1,4 +1,3 @@
-import React from 'react'
 import { Briefcase, Code, User } from 'lucide-react'
 const AboutMe = () => {
   return (
