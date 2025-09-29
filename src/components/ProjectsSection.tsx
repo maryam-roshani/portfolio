@@ -1,7 +1,6 @@
 
-import image1 from "../../public/projects/index1.jpg"
-import image2 from "../../public/projects/index2.jpg"
-import image3 from "../../public/projects/index3.jpg"
+import image1 from "../../public/projects/index1.png"
+import image2 from "../../public/projects/index2.png"
 import { ArrowRight, ExternalLink, Github } from "lucide-react"
 
 const projects = [
@@ -10,29 +9,19 @@ const projects = [
         title: "SaaS Landing Page",
         description: "A beautiful landing page app using React and Tailwind",
         image: image1,
-        tags: ["React", "TailwindCSS", "supabase"],
-        demoUrl: "#",
-        githubUrl: "#",
+        tags: ["React", "TailwindCSS"],
+        demoUrl: "https://todo-api-git-master-maryam-roshanis-projects.vercel.app/",
+        githubUrl: "https://github.com/maryam-roshani/todo-api2",
 
     },
     {
         id: 2,
-        title: "Orbit Analytics Dashboard",
-        description: "Interactive analytics dashboard with data visualization and filtering capabilities.",
-        image: image2,
-        tags: ["TypeScript", "D3.js", "Next.js"],
-        demoUrl: "#",
-        githubUrl: "#",
-
-    },
-    {
-        id: 3,
         title: "E-commerce Platform",
-        description: "Full-featured e-commerce platform with user authentication and payment processing.",
-        image: image3,
-        tags: ["React", "Node.js", "Stripe"],
-        demoUrl: "#",
-        githubUrl: "#",
+        description: "Full-featured e-commerce platform with user authentication and shopping card.",
+        image: image2,
+        tags: ["React", "material UI"],
+        demoUrl: "https://ecommerce-kappa-rose.vercel.app/",
+        githubUrl: "https://github.com/maryam-roshani/ecommerce",
 
     },
 ]
