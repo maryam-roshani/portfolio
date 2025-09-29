@@ -6,7 +6,7 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react"
 const projects = [
     {
         id: 1,
-        title: "SaaS Landing Page",
+        title: "TO DO APP",
         description: "A beautiful landing page app using React and Tailwind",
         image: image1,
         tags: ["React", "TailwindCSS"],
